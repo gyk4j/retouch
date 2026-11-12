@@ -4,6 +4,8 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # SharpDevelop 3.2.1.6466
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "retouch", "retouch\retouch.csproj", "{ABD5EA09-86F0-4CD0-81FE-3D7ACF0D87A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "retouch.Tests", "retouch.Tests\retouch.Tests.csproj", "{77E6445E-1814-4946-9D74-A18CA1EF8F5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -14,5 +16,9 @@ Global
 		{ABD5EA09-86F0-4CD0-81FE-3D7ACF0D87A6}.Debug|x86.ActiveCfg = Debug|x86
 		{ABD5EA09-86F0-4CD0-81FE-3D7ACF0D87A6}.Release|x86.Build.0 = Release|x86
 		{ABD5EA09-86F0-4CD0-81FE-3D7ACF0D87A6}.Release|x86.ActiveCfg = Release|x86
+		{77E6445E-1814-4946-9D74-A18CA1EF8F5A}.Debug|x86.Build.0 = Debug|x86
+		{77E6445E-1814-4946-9D74-A18CA1EF8F5A}.Debug|x86.ActiveCfg = Debug|x86
+		{77E6445E-1814-4946-9D74-A18CA1EF8F5A}.Release|x86.Build.0 = Release|x86
+		{77E6445E-1814-4946-9D74-A18CA1EF8F5A}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal

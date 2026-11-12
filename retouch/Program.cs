@@ -5,7 +5,7 @@ using log4net.Config;
 
 namespace retouch
 {
-	class Program
+	public class Program
 	{
 		private const string LOG4NET_XML = "log4net.xml";
 		private static readonly ILog log = LogManager.GetLogger(typeof(Program));
@@ -22,6 +22,11 @@ namespace retouch
 			
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
+		}
+		
+		public static int Add(int a, int b)
+		{
+			return a + b;
 		}
 	}
 }
